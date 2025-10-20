@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comprar iPhone 15 Pro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo.png" />
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f1f3f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 90%;
+      margin: 60px auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      flex-direction: column;
+    }
+
+    .product-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .product-image {
+      flex: 1 1 400px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .product-image img {
+      max-width: 80%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .product-details {
+      flex: 1 1 400px;
+      padding: 40px;
+      background-color: #f8f9fa;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .product-details h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .product-details p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      color: #555;
+    }
+
+    .price {
+      font-size: 1.8em;
+      color: #28a745;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 15px 30px;
+      background-color: #007bff;
+      color: #fff;
+      font-size: 1.1em;
+      text-decoration: none;
+      border-radius: 8px;
+      text-align: center;
+      transition: background 0.3s ease;
+      width: fit-content;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    .iframe-container {
+      margin: 40px auto;
+      width: 100%;
+      max-width: 1000px;
+      display: none;
+    }
+
+    iframe {
+      width: 100%;
+      height:1800px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      .product-section {
+        flex-direction: column;
+      }
+
+      .product-details {
+        padding: 30px;
+      }
+    }
+       .logotipo
+    {
+      max-width: 150px;
+      height: auto;
+
+      
+    }
+footer {
+
+background: linear-gradient(to right, #000000, #1c1c1c);
+  color: white;
+  text-align: center;
+
+}
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      font-weight: bold;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .navbar a {
+      color: #dfc30c;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+      transition: background-color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+
+  </style>
+</head>
+<body>
+    <header style="background: linear-gradient(to right, #000000, #1c1c1c); padding: 15px 0; box-shadow: 0 4px 12px rgba(0,0,0,0.25); top: 0; z-index: 100;">
+  <div style="max-width: 1400px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; padding: 0 20px;">
+
+
+<a href="./index.html">
+  <img class="logotipo" src="logo.png">
+</a>
+    
+
+    <!-- Menu Desktop -->
+  <div class="navbar">
+  <ul>
+      <li><a href="./termos-de-uso.html">Termo de Uso</a></li> <br>
+      <li><a href="./trocas-e-devolucoes.html">Trocas e Devoluções</a></li><br>
+      <li><a href="./sobre.html">Sobre Nós</a></li><br>
+      <li><a href="./contato.html">Contato</a></li><br>
+    </ul>
+  </div>
+
+    <div class="hamburger" style="display: none; flex-direction: column; cursor: pointer; gap: 5px;">
+      <span style="width: 25px; height: 3px; background: #fff; border-radius: 3px;"></span>
+      <span style="width: 25px; height: 3px; background: #fff; border-radius: 3px;"></span>
+      <span style="width: 25px; height: 3px; background: #fff; border-radius: 3px;"></span>
+
+    </div>
+
+
+  </div>
+
+</header>
+
+  <div class="container">
+    <div class="product-section">
+      <div class="product-image">
+        <img  src="iPhone 15 Pro Max.png" alt="iPhone 15 Pro Max">
+      </div>
+      <div class="product-details">
+        <h1>iPhone 15 Pro</h1>
+        <p>O iPhone com acabamento em titânio</p>
+         <div style="font-size: 25px;" class="price2">Entrada de R$ 550,00, restante em 16x de R$ 269,44</div>
+  <br>
+        <div class="btn" onclick="abrirIframe()">Comprar Agora</div>
+      </div>
+    </div>
+<br>
+    <div class="iframe-container" id="iframeContainer">
+      <iframe src="https://app.streetpay.com.br/payment/checkout/725978a1-d8fe-441e-9194-5dc8a4990852"></iframe>
+    </div>
+  </div>
+
+  <footer>
+  <h3 style="margin-bottom: 15px; text-shadow: 1px 1px 2px rgba(0,0,0,0.3);">Loja de iPhones</h3>
+  <p style="margin: 5px 0; font-weight: bold;">CNPJ: 12.345.678/0001-99</p>
+  <p >Endereço: Rodovia Augusto Montenegro, 3501, Parque Verde, Belém - PA, CEP 66635-110</p>
+  <p >Quem Somos: Somos uma loja especializada na venda de iPhones de última geração, oferecendo produtos originais e suporte de qualidade para todos os clientes.</p>
+  <p style="margin-top: 15px; font-size: 0.9em;">&copy; 2025 Loja de iPhones. Todos os direitos reservados.</p>
+</footer>
+  <script>
+    function abrirIframe() {
+      document.getElementById("iframeContainer").style.display = "block";
+      window.scrollTo({
+        top: document.getElementById("iframeContainer").offsetTop,
+        behavior: "smooth"
+      });
+    }
+  </script>
+
+</body>
+</html>
